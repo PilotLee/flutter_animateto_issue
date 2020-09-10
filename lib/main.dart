@@ -81,14 +81,12 @@ class _MyHomePageState extends State<MyHomePage> {
             },
           ),
         ),
-        RaisedButton(
-          onPressed: _incrementCounter,
-          color: Colors.red,
+        GestureDetector(
+          onTap: _incrementCounter,
           child: Text("up"),
         ),
-        RaisedButton(
-          onPressed: _decrementCounter,
-          color: Colors.blue,
+        GestureDetector(
+          onTap: _decrementCounter,
           child: Text("down"),
         ),
       ],
